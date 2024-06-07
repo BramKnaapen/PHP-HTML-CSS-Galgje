@@ -1,0 +1,55 @@
+body {
+    background-color: #797c86;
+}
+
+h1,
+p {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    padding: 0.1px;
+    background-color: gray;
+    border-radius: 5%;
+    margin: 5px;
+}
+
+
+.speelbutton:hover {
+    background-color: grey;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.game-picture img {
+    width: 300px;
+}
+
+.speelbutton {
+    padding: 2px;
+    border-radius: 20%;
+    margin: 5px;
+}
+
+.gebruikt {
+    margin: 5px;
+    text-decoration: underline;
+    background-color: grey;
+    margin: 5px;
+    border-radius: 5%;
+}
+
+.reset_button {
+    display: flex;
+    border-radius: 5%;
+    margin: 5px;
+    justify-content: center;
+}
+
+.reset_button:hover {
+    background-color: grey;
+}
